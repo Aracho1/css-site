@@ -1,0 +1,146 @@
+/* tag selectors */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #11999E;
+}
+
+
+a {
+  color: #11999E
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+/* class selectors */
+
+.top-container {
+ position: relative;
+ padding-top: 100px;
+ background-color: #EAF6F6;
+}
+
+.middle-container {
+  margin: 50px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  height: 200px;
+  margin-top: 150px;
+}
+
+.about-me {
+  width: 30%;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+
+.skills {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+}
+
+.my-skills {
+  text-align: center;
+}
+
+.yoga-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.climbing-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.cooking-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.touch-heading {
+  margin-top: 100px;
+}
+
+.touch-description {
+  width: 40%;
+  margin: 40px auto 30px;
+}
+
+a {
+  color: #11999E;
+  margin: 30px;
+  text-decoration: none;
+  position: relative;
+  top: 60px;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.btn {
+  padding: 15px 20px;
+  background-color: #11999E;
+  color: white;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px auto 50px auto;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  position: relative;
+  top: 60%;
+}
